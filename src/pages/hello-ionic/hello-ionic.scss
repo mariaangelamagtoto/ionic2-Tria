@@ -1,0 +1,21 @@
+page-hello-ionic {
+  .toolbar-background {
+    background-color: #dc4437;
+  }
+  .toolbar-title {
+    text-align: left;
+    color: #fff;
+  }
+  .bar-button-default-ios,
+  .bar-button-default.bar-button-ios-default,
+  .bar-button-clear-ios-default {
+    color: #fff;
+  }
+  ion-content {
+    width: 100%;
+    background-image: url('../../assets/img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
