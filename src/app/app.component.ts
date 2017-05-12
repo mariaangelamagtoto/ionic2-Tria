@@ -5,10 +5,10 @@ import { Platform, MenuController, Nav } from 'ionic-angular';
 import { HelloIonicPage } from '../pages/hello-ionic/hello-ionic';
 import { ListPage } from '../pages/list/list';
 import { ActionSheetControllerPage } from '../pages/actionsheets/actionsheets';
+import { BadgesPage } from '../pages/badges/badges';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-
 
 @Component({
   templateUrl: 'app.html'
@@ -32,7 +32,8 @@ export class MyApp {
     this.pages = [
       { title: 'Hello Ionic', component: HelloIonicPage },
       { title: 'My First List', component: ListPage },
-      { title: 'Basic Components', component :  ActionSheetControllerPage}
+      { title: 'Basic Components', component :  ActionSheetControllerPage},
+      { title: 'Badges', component : BadgesPage}
     ];
   }
 

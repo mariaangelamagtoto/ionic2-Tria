@@ -3,11 +3,20 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title> Action Sheets</ion-title>
+    <ion-title> Action Sheets / Alerts</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding class="action-sheets-basic-page">
-  <button ion-button block (click)="openMenu()"> Basic Action
-  </button>
+  <button ion-button block color="primary" (click)="openMenu()"> Basic Action </button>
+  <!-- Alert -->
+  <button ion-button block color="secondary" (click)="showAlert()">Show</button>
+  <!-- Alert Prompt -->
+  <button ion-button color="light" block (click)="showPrompt()">Show Prompt</button>
+  <!-- Alert Confirm -->
+  <button ion-button color="dark" block  (click)="showConfirm()">Show Confirm</button>
+  <!-- Alert radio -->
+  <button ion-button block color="danger" (click)="showRadio()">Show Radio Alert</button>
+  <!-- Alert Checkbox -->
+  <button ion-button block color="secondary" (click)="showCheckbox()">Show Checkbox</button>
 </ion-content>
